@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- Border -->
+    <item>
+        <shape>
+            <corners android:bottomLeftRadius="15dp"
+                android:bottomRightRadius="15dp"
+                />
+            <solid android:color="#1A9FF0"></solid>
+        </shape>
+    </item>
+    <!-- Body -->
+    <item android:left="2dp"
+        android:bottom="2dp"
+        android:right="2dp">
+        <shape>
+            <corners android:bottomLeftRadius="15dp"
+                android:bottomRightRadius="15dp"
+                />
+            <solid android:color="@color/white"></solid>
+        </shape>
+    </item>
+
+</layer-list>
